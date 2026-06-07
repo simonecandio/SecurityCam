@@ -1,0 +1,37 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "camera_handler.c"
+        "pir_handler.c"
+        "wifi_manager.c"
+        "softap_provisioning.c"
+        "http_server.c"
+        "sd_card_manager.c"
+        "led_controller.c"
+        "firebase_uploader.c"
+        "event_manager.c"
+        "error_monitor.c"
+        "tflite_classifier.cc"
+	"cert_manager.c"
+    INCLUDE_DIRS
+        "include"
+    REQUIRES
+        esp_wifi
+        esp_http_server
+	esp_https_server
+        esp_http_client
+        esp_event
+        esp_timer
+        nvs_flash
+        esp32-camera
+        driver
+        sdmmc
+        fatfs
+        esp_psram
+        json
+        mbedtls
+        esp-tls
+        esp_netif
+        vfs
+        spi_flash
+)

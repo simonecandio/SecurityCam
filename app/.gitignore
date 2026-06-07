@@ -1,0 +1,9 @@
+*.apk
+*.aab
+build/
+local.properties
+google-services.json
+.gradle/
+.idea/
+captures/
+.externalNativeBuild/

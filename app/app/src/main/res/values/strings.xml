@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecurityCam</string>
+
+    <!-- Login -->
+    <string name="login_title">Sign In</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="register_button">Register</string>
+    <string name="login_error">Login error</string>
+    <string name="create_account">Create an account</string>
+    <string name="login_subtitle">Sign in to your account</string>
+    <string name="show_password">Show password</string>
+    <string name="loading">Loading…</string>
+    <string name="have_account">Already have an account? Sign In</string>
+    <string name="no_account">Don\'t have an account? Register</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="reset_password_hint">Enter your email to receive a password reset link</string>
+    <string name="send">Send</string>
+
+    <!-- Devices -->
+    <string name="my_devices">My Devices</string>
+    <string name="no_devices">No devices</string>
+    <string name="add_device_hint">Press + to add a camera</string>
+    <string name="add_device">Add Device</string>
+    <string name="device_ip_hint">Device IP</string>
+    <string name="device_name_hint">Name (e.g. Front Door Camera)</string>
+    <string name="verify">Verify</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="device_found">Device found!</string>
+    <string name="device_unreachable">Device unreachable</string>
+    <string name="logout">Logout</string>
+    <string name="remove_device">Remove %1$s?</string>
+    <string name="remove_device_msg">The device will be removed from the list. Events on Firebase will remain.</string>
+    <string name="remove">Remove</string>
+    <string name="verify_connection">Verify connection</string>
+    <string name="verifying">Verifying…</string>
+    <string name="adding">Adding…</string>
+    <!-- Dashboard -->
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="peripherals_status">Peripherals Status</string>
+    <string name="statistics">Statistics</string>
+    <string name="total_events">Total Events</string>
+    <string name="failed_uploads">Failed Uploads</string>
+    <string name="free_heap">Free Heap</string>
+    <string name="uptime">Uptime</string>
+    <string name="state">State</string>
+    <string name="firmware">Firmware</string>
+    <string name="actions">Actions</string>
+    <string name="stream">Stream</string>
+    <string name="events">Events</string>
+    <string name="config">Config</string>
+    <string name="cloud_message">Connected via cloud — stream not available remotely</string>
+    <string name="device_not_updated">Device not updated recently</string>
+
+    <!-- Events -->
+    <string name="loading_events">Loading events…</string>
+    <string name="no_events">No events</string>
+    <string name="events_hint">Events will appear here when the PIR detects motion</string>
+    <string name="analyze_mlkit">Analyze with ML Kit</string>
+    <string name="analyzing">Analyzing…</string>
+    <string name="person_detected">Person detected!</string>
+    <string name="no_person">No detection</string>
+    <string name="person">Person</string>
+    <string name="details">Details</string>
+    <string name="event_id">Event ID</string>
+    <string name="frames">Frames</string>
+    <string name="validated">Validated</string>
+    <string name="person_found">Person detected</string>
+    <string name="not_analyzed">Not analyzed</string>
+    <string name="photos">Photos</string>
+    <string name="loading_photos">Loading photos…</string>
+    <string name="delete">Delete</string>
+    <string name="delete_event">Delete event #%1$d?</string>
+    <string name="delete_event_msg">The event and photos will be deleted from Firebase.</string>
+    <string name="delete_all">Delete all events?</string>
+    <string name="delete_all_msg">All events and photos will be permanently deleted.</string>
+    <string name="delete_all_btn">Delete all</string>
+    <string name="selected_count">selected</string>
+    <string name="back">Back</string>
+    <string name="select">Select</string>
+    <string name="delete_selected">Delete selected</string>
+    <string name="refresh">Refresh</string>
+    <string name="event_number">Event #%1$d</string>
+    <string name="no_person_short">No person</string>
+    <string name="person_confidence">Person (%1$d%%)</string>
+    <string name="load_more">Load more</string>
+    <string name="detection_confirmed">Detection confirmed</string>
+    <string name="no_detection">No detection</string>
+
+
+    <!-- Config -->
+    <string name="cooldown">Cooldown (seconds)</string>
+    <string name="frame_count">Frames per event</string>
+    <string name="jpeg_quality">JPEG Quality</string>
+    <string name="save">Save</string>
+    <string name="reboot">Reboot ESP</string>
+    <string name="config_saved_local">Saved! Reboot to apply.</string>
+    <string name="config_saved_cloud">Config saved to cloud. Will be applied at next check.</string>
+
+    <!-- Stream -->
+    <string name="stream_title">Live Stream</string>
+    <string name="stream_connecting">Connecting to stream…</string>
+    <string name="stream_error">Stream connection error</string>
+
+
+    <!-- Detection Categories -->
+    <string name="category_person">People</string>
+    <string name="category_dog">Dogs</string>
+    <string name="category_cat">Cats</string>
+    <string name="category_vehicle">Vehicles</string>
+    <string name="category_package">Packages</string>
+    <string name="monitor_categories">Monitor Categories</string>
+    <string name="select_categories">Select what to detect</string>
+    <string name="detected">%1$s detected!</string>
+    <string name="dog_detected">Dog detected!</string>
+    <string name="cat_detected">Cat detected!</string>
+    <string name="vehicle_detected">Vehicle detected!</string>
+    <string name="package_detected">Package detected!</string>
+
+    <string name="remove_device_choose">How do you want to remove this device?</string>
+    <string name="remove_app_only">Remove from app only</string>
+    <string name="remove_app_only_desc">The device stays operational. You can re-add it without reconfiguring.</string>
+    <string name="remove_and_reset">Remove and reset device</string>
+    <string name="remove_and_reset_desc">The device returns to setup mode. Requires same network access.</string>
+    <string name="share_device">Share</string>
+    <string name="share_device_desc">Share \"%1$s\" with another user. Tell them the code.</string>
+    <string name="copy_code">Copy code</string>
+    <string name="share_code_expires">Code expires in 24 hours</string>
+    <string name="share_code_error">Error generating code</string>
+    <string name="shared_badge">Shared</string>
+    <string name="done">Done</string>
+    <string name="join_device">Use invite code</string>
+    <string name="join_device_desc">Enter the 6-digit code received from the device owner.</string>
+    <string name="invite_code">Invite code</string>
+    <string name="join">Join</string>
+    <string name="joining">Joining…</string>
+    <!-- Notifications -->
+    <string name="notif_person_title">Person detected!</string>
+    <string name="notif_person_text">Movement with person on %s</string>
+    <string name="notif_dog_title">Dog detected!</string>
+    <string name="notif_dog_text">Dog detected on %s</string>
+    <string name="notif_cat_title">Cat detected!</string>
+    <string name="notif_cat_text">Cat detected on %s</string>
+    <string name="notif_generic_title">Detection!</string>
+    <string name="notif_generic_text">Movement detected on %s</string>
+    <string name="notif_channel_name">Person Detection</string>
+    <string name="notif_channel_desc">Notifications when a person is detected</string>
+    <string name="notif_title">Person detected!</string>
+    <string name="notif_body">Motion with person detected on %1$s</string>
+</resources>

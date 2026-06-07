@@ -1,0 +1,5 @@
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+main/include/micro_model_data.h

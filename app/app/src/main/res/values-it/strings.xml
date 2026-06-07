@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecurityCam</string>
+
+    <!-- Login -->
+    <string name="login_title">Accedi</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Accedi</string>
+    <string name="register_button">Registrati</string>
+    <string name="login_error">Errore di accesso</string>
+    <string name="create_account">Crea un account</string>
+    <string name="login_subtitle">Accedi al tuo account</string>
+    <string name="show_password">Mostra password</string>
+    <string name="loading">Caricamento…</string>
+    <string name="have_account">Hai già un account? Accedi</string>
+    <string name="no_account">Non hai un account? Registrati</string>
+    <string name="forgot_password">Password dimenticata?</string>
+    <string name="reset_password_hint">Inserisci la tua email per ricevere il link di reset</string>
+    <string name="send">Invia</string>
+
+    <!-- Devices -->
+    <string name="my_devices">I miei dispositivi</string>
+    <string name="no_devices">Nessun dispositivo</string>
+    <string name="add_device_hint">Premi + per aggiungere una camera</string>
+    <string name="add_device">Aggiungi dispositivo</string>
+    <string name="device_ip_hint">IP del dispositivo</string>
+    <string name="device_name_hint">Nome (es. Camera Ingresso)</string>
+    <string name="verify">Verifica</string>
+    <string name="add">Aggiungi</string>
+    <string name="cancel">Annulla</string>
+    <string name="device_found">Dispositivo trovato!</string>
+    <string name="device_unreachable">Dispositivo non raggiungibile</string>
+    <string name="logout">Logout</string>
+    <string name="remove_device">Rimuovere %1$s?</string>
+    <string name="remove_device_msg">Il dispositivo verrà rimosso dalla lista. Gli eventi su Firebase resteranno.</string>
+    <string name="remove">Rimuovi</string>
+    <string name="verify_connection">Verifica connessione</string>
+    <string name="verifying">Verifica…</string>
+    <string name="adding">Aggiunta…</string>
+
+
+    <!-- Dashboard -->
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="peripherals_status">Stato Periferiche</string>
+    <string name="statistics">Statistiche</string>
+    <string name="total_events">Eventi totali</string>
+    <string name="failed_uploads">Upload falliti</string>
+    <string name="free_heap">Heap libero</string>
+    <string name="uptime">Uptime</string>
+    <string name="state">Stato</string>
+    <string name="firmware">Firmware</string>
+    <string name="actions">Azioni</string>
+    <string name="stream">Stream</string>
+    <string name="events">Eventi</string>
+    <string name="config">Config</string>
+    <string name="cloud_message">Connesso via cloud — stream non disponibile da remoto</string>
+    <string name="device_not_updated">Dispositivo non aggiornato da tempo</string>
+
+    <!-- Events -->
+    <string name="loading_events">Caricamento eventi…</string>
+    <string name="no_events">Nessun evento</string>
+    <string name="events_hint">Gli eventi appariranno qui quando il PIR rileva movimento</string>
+    <string name="analyze_mlkit">Analizza con ML Kit</string>
+    <string name="analyzing">Analisi in corso…</string>
+    <string name="person_detected">Persona rilevata!</string>
+    <string name="no_person">Nessun rilevamento</string>
+    <string name="person">Persona</string>
+    <string name="details">Dettagli</string>
+    <string name="event_id">ID Evento</string>
+    <string name="frames">Frame</string>
+    <string name="validated">Validato</string>
+    <string name="person_found">Persona rilevata</string>
+    <string name="not_analyzed">Non analizzato</string>
+    <string name="photos">Foto</string>
+    <string name="loading_photos">Caricamento foto…</string>
+    <string name="delete">Elimina</string>
+    <string name="delete_event">Eliminare evento #%1$d?</string>
+    <string name="delete_event_msg">L\'evento e le foto verranno eliminati da Firebase.</string>
+    <string name="delete_all">Eliminare tutti gli eventi?</string>
+    <string name="delete_all_msg">Tutti gli eventi e le foto verranno eliminati definitivamente.</string>
+    <string name="delete_all_btn">Elimina tutti</string>
+    <string name="selected_count">selezionati</string>
+    <string name="back">Indietro</string>
+    <string name="select">Seleziona</string>
+    <string name="delete_selected">Elimina selezionati</string>
+    <string name="refresh">Aggiorna</string>
+    <string name="event_number">Evento #%1$d</string>
+    <string name="no_person_short">Nessuna persona</string>
+    <string name="person_confidence">Persona (%1$d%%)</string>
+    <string name="load_more">Carica altri</string>
+    <string name="detection_confirmed">Rilevamento confermato</string>
+    <string name="no_detection">Nessun rilevamento</string>
+
+    <!-- Config -->
+    <string name="cooldown">Cooldown (secondi)</string>
+    <string name="frame_count">Frame per evento</string>
+    <string name="jpeg_quality">Qualità JPEG</string>
+    <string name="save">Salva</string>
+    <string name="reboot">Riavvia ESP</string>
+    <string name="config_saved_local">Salvato! Riavviare per applicare.</string>
+    <string name="config_saved_cloud">Config salvata su cloud. Verrà applicata al prossimo check.</string>
+
+    <!-- Stream -->
+    <string name="stream_title">Stream Live</string>
+    <string name="stream_connecting">Connessione allo stream…</string>
+    <string name="stream_error">Errore di connessione allo stream</string>
+
+
+
+    <!-- Detection Categories -->
+    <string name="category_person">Persone</string>
+    <string name="category_dog">Cani</string>
+    <string name="category_cat">Gatti</string>
+    <string name="category_vehicle">Veicoli</string>
+    <string name="category_package">Pacchi</string>
+    <string name="monitor_categories">Categorie Monitoraggio</string>
+    <string name="select_categories">Seleziona cosa rilevare</string>
+    <string name="detected">%1$s rilevato!</string>
+    <string name="dog_detected">Cane rilevato!</string>
+    <string name="cat_detected">Gatto rilevato!</string>
+    <string name="vehicle_detected">Veicolo rilevato!</string>
+    <string name="package_detected">Pacco rilevato!</string>
+
+    <!-- rimozione -->
+    <string name="remove_device_choose">Come vuoi rimuovere questo dispositivo?</string>
+    <string name="remove_app_only">Rimuovi solo dall\'app</string>
+    <string name="remove_app_only_desc">Il dispositivo resta operativo. Potrai riaggiungerlo senza riconfigurarlo.</string>
+    <string name="remove_and_reset">Rimuovi e resetta dispositivo</string>
+    <string name="remove_and_reset_desc">Il dispositivo torna in modalità configurazione. Richiede accesso alla stessa rete.</string>
+    <!-- condivisione -->
+    <string name="share_device">Condividi</string>
+    <string name="share_device_desc">Condividi \"%1$s\" con un altro utente. Comunica il codice all\'invitato.</string>
+    <string name="copy_code">Copia codice</string>
+    <string name="share_code_expires">Il codice scade tra 24 ore</string>
+    <string name="share_code_error">Errore nella generazione del codice</string>
+    <string name="shared_badge">Condiviso</string>
+    <string name="done">Fatto</string>
+    <!-- invito -->
+    <string name="join_device">Usa codice invito</string>
+    <string name="join_device_desc">Inserisci il codice a 6 cifre ricevuto dal proprietario del dispositivo.</string>
+    <string name="invite_code">Codice invito</string>
+    <string name="join">Unisciti</string>
+    <string name="joining">Connessione…</string>
+    <!-- Notifiche -->
+    <string name="notif_person_title">Persona rilevata!</string>
+    <string name="notif_person_text">Movimento con persona su %s</string>
+    <string name="notif_dog_title">Cane rilevato!</string>
+    <string name="notif_dog_text">Cane rilevato su %s</string>
+    <string name="notif_cat_title">Gatto rilevato!</string>
+    <string name="notif_cat_text">Gatto rilevato su %s</string>
+    <string name="notif_generic_title">Rilevamento!</string>
+    <string name="notif_generic_text">Movimento rilevato su %s</string>
+    <string name="notif_channel_name">Allarmi sicurezza</string>
+    <string name="notif_channel_desc">Notifiche quando viene rilevato qualcosa</string>
+    <string name="notif_title">Persona rilevata!</string>
+    <string name="notif_body">Movimento con persona rilevato su %1$s</string>
+</resources>
