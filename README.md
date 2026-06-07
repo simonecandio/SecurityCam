@@ -1,4 +1,4 @@
-# 🔐 SecurityCam
+#  SecurityCam
 
 **IoT security camera system with edge AI inference, cloud backend, and mobile app.**
 
@@ -6,7 +6,7 @@ An end-to-end smart surveillance system built as a university IoT + Mobile Progr
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────┐      HTTPS/REST       ┌──────────────────┐
@@ -41,7 +41,7 @@ The system implements ML inference at two levels:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 SecurityCam/
@@ -113,7 +113,7 @@ SecurityCam/
 
 ---
 
-## ⚡ Hardware
+##  Hardware
 
 | Component | Model | Purpose |
 |-----------|-------|---------|
@@ -125,7 +125,7 @@ SecurityCam/
 
 ---
 
-## 🔧 Firmware Features
+##  Firmware Features
 
 ### Event Pipeline
 ```
@@ -166,7 +166,7 @@ PIR trigger → warm-up frame (discarded) → test frame → TFLite classify (~3
 
 ---
 
-## 📱 Android App Features
+## Android App Features
 
 ### Architecture
 - **Pattern:** Single Activity + MVVM + Jetpack Compose
@@ -199,7 +199,7 @@ PIR trigger → warm-up frame (discarded) → test frame → TFLite classify (~3
 
 ---
 
-## ☁️ Firebase Structure
+##  Firebase Structure
 
 ```
 users/{uid}/
@@ -221,7 +221,7 @@ invites/{code}/
 
 ---
 
-## 🚀 Setup
+##  Setup
 
 ### Prerequisites
 - [ESP-IDF v5.5.1](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/)
@@ -254,7 +254,7 @@ idf.py flash monitor
 
 ---
 
-## 🔒 Security
+##  Security
 
 | Layer | Mechanism |
 |-------|-----------|
@@ -268,7 +268,7 @@ idf.py flash monitor
 
 ---
 
-## 📊 Performance
+##  Performance
 
 | Metric | Value |
 |--------|-------|
@@ -283,7 +283,7 @@ idf.py flash monitor
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Firmware
 C/C++ · ESP-IDF v5.5.1 · FreeRTOS · TFLite Micro · mbedTLS · cJSON · esp32-camera
@@ -296,12 +296,12 @@ Firebase Firestore · Firebase Authentication · Firebase Security Rules
 
 ---
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Simone Candiani** — University IoT + Mobile Programming Exam Project (2026)
